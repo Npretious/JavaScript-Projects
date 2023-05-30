@@ -1,0 +1,37 @@
+<!--jQuery.html-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <!--Link to the Google API jQuery files-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    </head>
+
+    <script>
+        //Function to wait until the document is fully loaded before running jQuery
+        $(document).ready(function() {
+            //Selects the HTML element for appending content
+            $("html").append(
+                //The content to be added to the HTML element
+                "<body>\
+                    <div id='container'>\
+                        <div id='inner'>\
+                            <h1>Basic jQuery</h1>\
+                            <p id='1'>Paragraph 1</p>\
+                            <p id='2'>Paragraph 2</p>\
+                            <p id='3'>Paragraph 3</p>\
+                        </div>\
+                    </div>\
+                </body>"
+            );
+            //Utilizing jQuery to add CSS to the HTML element with id #2.
+            $("#2").css({"color":"red"});
+            //Using the click function to hide the h1 element when user clicks the #3 id.
+            $("#3").click(function() {
+                $("h1").hide();
+            });
+
+        });
+    </script>
+</html>
