@@ -1,10 +1,10 @@
 # JavaScript-Projects
 ## Here's some projects I made during the JavaScript Course.
--Pizza Menu
+- Pizza Menu
 #
--Tic Tac Toe Game
+- Tic Tac Toe Game
 #
--Calculator
+- Calculator
 ## Pizza Menu
 In this project I created a menu used to order pizza with various toppings. It then takes the input info and calculates the total price.
 ## Tic Tac Toe Game
