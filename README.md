@@ -1,5 +1,5 @@
 # JavaScript-Projects
-## Here's some projects I made during the JavaScript Course.
+## Here's some projects I've made in JavaScript.
 - Pizza Menu
 #
 - Tic Tac Toe Game
