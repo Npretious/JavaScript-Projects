@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    
+    </head>
+
+    <body>
+        <h2>Showcasing a JSON string from a JavaScript object.</h2>
+        <p id="demo"></p>
+
+        <script>
+            var obj = { "name":"Nick", "age":28, "city":"Calgary"};
+            var myJSON = JSON.stringify(obj);
+            document.getElementById("demo").innerHTML = myJSON;
+        </script>
+    </body>

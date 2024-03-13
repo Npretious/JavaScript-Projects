@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html lang="en">
+    <body>
+        <p id="myDog"></p>
+
+        <script>
+            localStorage.setItem("Name", "Dax");
+            document.getElementById("myDog").innerHTML = localStorage.getItem("Name");
+        </script>
+    </body>
+</html>
